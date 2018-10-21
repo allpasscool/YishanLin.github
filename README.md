@@ -1,4 +1,4 @@
 # YishanLin.github.io
 
 
-This is codes from YISHAN LIN
+This is codes written by YI-SHAN LIN
