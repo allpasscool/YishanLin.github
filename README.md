@@ -1,7 +1,6 @@
 # YishanLin.github.io
 
-
-These codes are written by Yi-Shan Lin
+These codes are course projects or homework assignments written by Yi-Shan Lin
 
 Yi-Shan in 2018 Fall in Northwestern University took 
 - EECS 340: INTRODUCTION TO COMPUTER NETWORKING
