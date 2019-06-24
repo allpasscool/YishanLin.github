@@ -1,0 +1,55 @@
+language: rust
+sudo: required
+dist: trusty
+
+branches:
+  except:
+    - master
+
+env:
+  - CODECOV_TOKEN=8c676ac5-6b88-4325-a4fe-cf7483fbc1aa
+
+services:
+  - docker
+
+addons:
+  apt:
+    packages:
+      - libssl-dev
+
+rust:
+  - nightly
+  - stable
+
+cache: cargo
+
+before_script:
+  - |
+    when () {
+        if [ "$1" = "$TRAVIS_RUST_VERSION" ]; then
+            shift; "$@"
+        fi
+    }
+  - when stable rustup component add clippy
+
+script:
+  - when stable cargo build
+  - when stable cargo test
+  - when stable cargo clippy --tests --examples
+  - when nightly cargo bench
+
+after_success: |
+  if when nightly false; then
+    docker run --security-opt seccomp=unconfined    \
+        -v "$(pwd):/volume"                         \
+        xd009642/tarpaulin                          \
+        cargo tarpaulin --out Xml
+    case "$CODECOV_TOKEN" in
+      '{'*)
+          ;;
+      *)
+        bash <(curl -s https://codecov.io/bash) &&
+          echo "Uploaded code coverage report to codecov.io"
+          ;;
+    esac
+  fi

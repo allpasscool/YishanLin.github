@@ -1,0 +1,8 @@
+[package]
+name = "correct"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+spell-bench = { git = "https://github.com/nu-rust-course/spell-bench.git" }
+

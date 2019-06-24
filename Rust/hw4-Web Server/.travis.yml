@@ -1,0 +1,45 @@
+language: rust
+sudo: required
+dist: trusty
+
+branches:
+  except:
+    - master
+
+env:
+  - CODECOV_TOKEN=a6d5f79c-bc2d-4789-b2c1-4749f2d81b6d
+
+services:
+  - docker
+
+addons:
+  apt:
+    packages:
+      - libssl-dev
+
+rust:
+  - stable
+
+cache: cargo
+
+before_script:
+  - rustup component add clippy
+
+script:
+  - cargo build
+  - cargo clippy --all-targets
+  - cargo test
+
+after_success: |
+  docker run --security-opt seccomp=unconfined    \
+        -v "$(pwd):/volume"                       \
+        xd009642/tarpaulin                        \
+        cargo tarpaulin --out Xml
+  case "$CODECOV_TOKEN" in
+    '{'*)
+        ;;
+    *)
+      bash <(curl -s https://codecov.io/bash) &&
+        echo "Uploaded code coverage report to codecov.io"
+        ;;
+  esac
