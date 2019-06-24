@@ -1,0 +1,317 @@
+2019/05/01 02:13:18 rpc.Register: method "CleanupFiles" has 1 input parameters; needs exactly three
+2019/05/01 02:13:18 rpc.Register: method "Lock" has 1 input parameters; needs exactly three
+2019/05/01 02:13:18 rpc.Register: method "Unlock" has 1 input parameters; needs exactly three
+2019/05/01 02:13:18 rpc.Register: method "Wait" has 1 input parameters; needs exactly three
+2019/05/01 02:13:18 rpc.Register: method "Lock" has 1 input parameters; needs exactly three
+2019/05/01 02:13:18 rpc.Register: method "Unlock" has 1 input parameters; needs exactly three
+/var/tmp/824-0/mr20529-master: Starting Map/Reduce task test
+Scheduleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+Schedule: 20 mapPhase tasks (10 I/Os)
+Phase:  mapPhase
+masterrrrrrrrrrrrrrrr:  /var/tmp/824-0/mr20529-master
+2019/05/01 02:13:18 rpc.Register: method "Lock" has 1 input parameters; needs exactly three
+rpcname:  Master.Register
+2019/05/01 02:13:18 rpc.Register: method "Unlock" has 1 input parameters; needs exactly three
+
+masterrrrrrrrrrrrrrrr:  /var/tmp/824-0/mr20529-master
+rpcname:  Master.Register
+
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #0 on file 824-mrinput-0.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #0 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #1 on file 824-mrinput-1.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #1 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #2 on file 824-mrinput-2.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #2 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #3 on file 824-mrinput-3.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #3 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #4 on file 824-mrinput-4.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #4 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #5 on file 824-mrinput-5.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #5 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #6 on file 824-mrinput-6.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #6 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #7 on file 824-mrinput-7.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #7 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #8 on file 824-mrinput-8.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #8 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #9 on file 824-mrinput-9.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #9 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #10 on file 824-mrinput-10.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #10 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #11 on file 824-mrinput-11.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #11 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #12 on file 824-mrinput-12.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #12 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #13 on file 824-mrinput-13.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #13 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #14 on file 824-mrinput-14.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #14 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #15 on file 824-mrinput-15.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #15 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #16 on file 824-mrinput-16.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #16 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #17 on file 824-mrinput-17.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #17 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #18 on file 824-mrinput-18.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #18 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #19 on file 824-mrinput-19.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #19 done
+Schedule: mapPhase done
+
+
+
+Scheduleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+Schedule: 10 reducePhase tasks (20 I/Os)
+Phase:  reducePhase
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given reducePhase task #0 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker1: reducePhase task #0 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given reducePhase task #1 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker0: reducePhase task #1 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given reducePhase task #2 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker1: reducePhase task #2 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given reducePhase task #3 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker0: reducePhase task #3 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given reducePhase task #4 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker1: reducePhase task #4 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given reducePhase task #5 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker0: reducePhase task #5 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given reducePhase task #6 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker1: reducePhase task #6 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given reducePhase task #7 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker0: reducePhase task #7 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given reducePhase task #8 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker1: reducePhase task #8 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given reducePhase task #9 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker0: reducePhase task #9 done
+Schedule: reducePhase done
+
+
+
+rpcname:  Worker.Shutdown
+
+rpcname:  Worker.Shutdown
+
+rpcname:  Master.Shutdown
+
+/var/tmp/824-0/mr20529-master: Map/Reduce task completed
+2019/05/01 02:13:22 rpc.Register: method "CleanupFiles" has 1 input parameters; needs exactly three
+2019/05/01 02:13:22 rpc.Register: method "Lock" has 1 input parameters; needs exactly three
+2019/05/01 02:13:22 rpc.Register: method "Unlock" has 1 input parameters; needs exactly three
+2019/05/01 02:13:22 rpc.Register: method "Wait" has 1 input parameters; needs exactly three
+2019/05/01 02:13:22 rpc.Register: method "Lock" has 1 input parameters; needs exactly three
+2019/05/01 02:13:22 rpc.Register: method "Unlock" has 1 input parameters; needs exactly three
+masterrrrrrrrrrrrrrrr:  /var/tmp/824-0/mr20529-master
+/var/tmp/824-0/mr20529-master: Starting Map/Reduce task test
+Scheduleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+rpcname:  Master.Register
+
+2019/05/01 02:13:22 rpc.Register: method "Lock" has 1 input parameters; needs exactly three
+2019/05/01 02:13:22 rpc.Register: method "Unlock" has 1 input parameters; needs exactly three
+masterrrrrrrrrrrrrrrr:  /var/tmp/824-0/mr20529-master
+rpcname:  Master.Register
+
+Schedule: 20 mapPhase tasks (10 I/Os)
+Phase:  mapPhase
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #0 on file 824-mrinput-0.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #0 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #1 on file 824-mrinput-1.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #1 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #2 on file 824-mrinput-2.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #2 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #3 on file 824-mrinput-3.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #3 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #4 on file 824-mrinput-4.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #4 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #5 on file 824-mrinput-5.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #5 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #6 on file 824-mrinput-6.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #6 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #7 on file 824-mrinput-7.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #7 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #8 on file 824-mrinput-8.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #8 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #9 on file 824-mrinput-9.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #9 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #10 on file 824-mrinput-10.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #10 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #11 on file 824-mrinput-11.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #11 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #12 on file 824-mrinput-12.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #12 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #13 on file 824-mrinput-13.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #13 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #14 on file 824-mrinput-14.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #14 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #15 on file 824-mrinput-15.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #15 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #16 on file 824-mrinput-16.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #16 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #17 on file 824-mrinput-17.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #17 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given mapPhase task #18 on file 824-mrinput-18.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker0: mapPhase task #18 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given mapPhase task #19 on file 824-mrinput-19.txt (nios: 10)
+/var/tmp/824-0/mr20529-worker1: mapPhase task #19 done
+Schedule: mapPhase done
+
+
+
+Scheduleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+Schedule: 10 reducePhase tasks (20 I/Os)
+Phase:  reducePhase
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given reducePhase task #0 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker1: reducePhase task #0 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given reducePhase task #1 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker0: reducePhase task #1 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given reducePhase task #2 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker1: reducePhase task #2 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given reducePhase task #3 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker0: reducePhase task #3 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given reducePhase task #4 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker1: reducePhase task #4 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given reducePhase task #5 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker0: reducePhase task #5 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given reducePhase task #6 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker1: reducePhase task #6 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given reducePhase task #7 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker0: reducePhase task #7 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker1: given reducePhase task #8 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker1: reducePhase task #8 done
+rpcname:  Worker.DoTask
+
+/var/tmp/824-0/mr20529-worker0: given reducePhase task #9 on file  (nios: 20)
+/var/tmp/824-0/mr20529-worker0: reducePhase task #9 done
+Schedule: reducePhase done
+
+
+
+rpcname:  Worker.Shutdown
+
+rpcname:  Worker.Shutdown
+
+rpcname:  Master.Shutdown
+
+/var/tmp/824-0/mr20529-master: Map/Reduce task completed
+--- FAIL: TestParallelCheck (32.28s)
+	test_test.go:188: workers did not execute in parallel
+FAIL
+exit status 1
+FAIL	_/home/ubuntu/Desktop/distributedSystem/project1/mapreduce_lab1/src/mapreduce	35.921s
