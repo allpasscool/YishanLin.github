@@ -1,0 +1,43 @@
+fact: (class object)
+fact: (class color)
+fact: (class shape)
+fact: (class size)
+fact: (class location)
+fact: (class level)
+fact: (class material)
+fact: (class unknown)
+
+fact: (isa table furniture)
+fact: (isa chair furniture)
+fact: (isa furniture object)
+fact: (isa box container)
+fact: (isa container object)
+fact: (isa block object)
+
+fact: (isa red color)
+fact: (isa green color)
+fact: (isa yellow color)
+fact: (isa blue color)
+
+fact: (isa cube shape)
+fact: (isa pyramid shape)
+fact: (isa sphere shape)
+
+fact: (isa small size)
+fact: (isa big size)
+fact: (isa medium size)
+
+fact:(isa wooden material)
+fact:(isa metal material)
+
+fact:(isa floor location)
+fact:(isa room location)
+
+fact:(isa first level)
+fact:(isa second level)
+
+rule: ((isa ?x ?y)(isa ?y ?z)) -> (isa ?x ?z)
+rule: ((isa ?x ?y)(class ?y)) -> (class ?x)
+
+fact:(inst Floor1 floor)
+fact:(level Floor1 first)

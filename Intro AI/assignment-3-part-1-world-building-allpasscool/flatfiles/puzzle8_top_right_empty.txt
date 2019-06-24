@@ -1,0 +1,18 @@
+fact: (pos tile1 pos2 pos2)
+fact: (pos tile2 pos3 pos3)
+fact: (pos tile3 pos2 pos3)
+fact: (pos tile4 pos2 pos1)
+fact: (pos tile5 pos1 pos1)
+fact: (pos tile6 pos1 pos2)
+fact: (pos tile7 pos1 pos3)
+fact: (pos tile8 pos3 pos2)
+
+fact: (empty pos3 pos1)
+
+fact: (adj pos1 pos2)
+fact: (adj pos2 pos1)
+fact: (adj pos2 pos3)
+fact: (adj pos3 pos1)
+
+rule: ((pos ?tile ?x ?y1) (empty ?x ?y2) (adj ?y1 ?y2)) -> (movable ?tile ?x ?y1 ?x ?y2)
+rule: ((pos ?tile ?x1 ?y) (empty ?x2 ?y) (adj ?x1 ?x2)) -> (movable ?tile ?x1 ?y ?x2 ?y)

@@ -1,0 +1,66 @@
+TESTS WITH ERRORS 
+test10 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/gradingtests.py", line 279, in test10
+    answer2 = KB.facts[KB.facts.index(fact3)].asserted
+ValueError: Fact('fact', Statement('goodman', [Term(Constant('A'))]), True, [], [], []) is not in list
+
+test13 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/gradingtests.py", line 370, in test13
+    KB.kb_retract(fact1)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 155, in kb_retract
+    self.kb_delRule(i)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 176, in kb_delRule
+    self.kb_delRule(i)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 171, in kb_delRule
+    self.rules.remove(rule)
+ValueError: list.remove(x): x not in list
+
+test14 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/gradingtests.py", line 399, in test14
+    KB.kb_retract(fact1)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 155, in kb_retract
+    self.kb_delRule(i)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 176, in kb_delRule
+    self.kb_delRule(i)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 171, in kb_delRule
+    self.rules.remove(rule)
+ValueError: list.remove(x): x not in list
+
+test4 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/gradingtests.py", line 83, in test4
+    KB.kb_retract(fact1)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 155, in kb_retract
+    self.kb_delRule(i)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 176, in kb_delRule
+    self.kb_delRule(i)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 171, in kb_delRule
+    self.rules.remove(rule)
+ValueError: list.remove(x): x not in list
+
+test9 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/gradingtests.py", line 258, in test9
+    KB.kb_retract(fact1)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 155, in kb_retract
+    self.kb_delRule(i)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 176, in kb_delRule
+    self.kb_delRule(i)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 171, in kb_delRule
+    self.rules.remove(rule)
+ValueError: list.remove(x): x not in list
+
+-------------------------------
+TESTS FAILED  
+test5 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/gradingtests.py", line 160, in test5
+    self.assertTrue(len(answer7) > 0)
+AssertionError: False is not true
+
+-------------------------------
+TESTS SKIPPED 
+-------------------------------
