@@ -1,0 +1,12 @@
+{
+    "score": 100,
+    "tests_passed": 6,
+    "notes": {
+        "test_collaborative_filtering": "PASS",
+        "test_euclidean_distances": "PASS",
+        "test_manhattan_distances": "PASS",
+        "test_cosine_distances": "PASS",
+        "test_aggregators": "PASS",
+        "test_load_movielens_data": "PASS"
+    }
+}

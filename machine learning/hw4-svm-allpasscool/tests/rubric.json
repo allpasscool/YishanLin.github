@@ -1,0 +1,6 @@
+{
+    "test_netid": {
+        "weight": "required",
+        "depends": []
+    }
+}
